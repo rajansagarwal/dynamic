@@ -1,38 +1,54 @@
-.App {
+@import url(//db.onlinewebfonts.com/c/8bf03e662b63d69e50bb114b6bd9a60b?family=OrpheusW05-Regular);
+@import url(//db.onlinewebfonts.com/c/81651a191b7129993b0871c834a19600?family=Orpheus+Pro);
+@import url(//db.onlinewebfonts.com/c/6afb442b0dac4242aa6c3e77985e119f?family=Orpheus);
+
+@font-face {font-family: "orpheuspro"; src: url("//db.onlinewebfonts.com/t/8bf03e662b63d69e50bb114b6bd9a60b.eot"); src: url("//db.onlinewebfonts.com/t/8bf03e662b63d69e50bb114b6bd9a60b.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/8bf03e662b63d69e50bb114b6bd9a60b.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/8bf03e662b63d69e50bb114b6bd9a60b.woff") format("woff"), url("//db.onlinewebfonts.com/t/8bf03e662b63d69e50bb114b6bd9a60b.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/8bf03e662b63d69e50bb114b6bd9a60b.svg#OrpheusW05-Regular") format("svg"); }
+@font-face {font-family: "orpheusprobold"; src: url("//db.onlinewebfonts.com/t/81651a191b7129993b0871c834a19600.eot"); src: url("//db.onlinewebfonts.com/t/81651a191b7129993b0871c834a19600.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/81651a191b7129993b0871c834a19600.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/81651a191b7129993b0871c834a19600.woff") format("woff"), url("//db.onlinewebfonts.com/t/81651a191b7129993b0871c834a19600.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/81651a191b7129993b0871c834a19600.svg#Orpheus Pro") format("svg"); }
+@font-face {font-family: "orpheusproitalics"; src: url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.eot"); src: url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.woff") format("woff"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.svg#Orpheus") format("svg"); }
+
+*, html, body {
+  
+  color: rgb(54, 64, 94);
+  background-color: rgba(255, 240, 220, 0.8);
+  background-image: url("https://thumbs.gfycat.com/SoupyOpenEider-max-1mb.gif");
+  background-blend-mode: lighten;
+  }
+
+.section {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+  font-size: 1.5em;
+  font-family: 'orpheuspro';
+}
+
+.main {
+  padding: 17em 0;
   text-align: center;
 }
+.main h1 {
+  font-size: 17vh;
+  font-family: 'orpheusprobold';
+  opacity: 0.9;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@media (max-width: 1200px) {
+  .main {
+    padding: 22vh 0;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+@media (max-width: 600px) {
+  .main {
+    padding: 24vh 0;
   }
-  to {
-    transform: rotate(360deg);
+  .main h1 {
+    font-size: 10vh;
+  }
+  .section {
+    width: 80%;
+    font-size: 1.3em;
   }
 }
+
