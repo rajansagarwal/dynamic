@@ -14,19 +14,10 @@
   background-blend-mode: difference;
   }
 
-@media (prefers-color-scheme: light) {
-    .App {
-      color: rgb(0, 0, 0) !important;
-      background-color: rgba(255, 240, 220);
-  background-image: url("https://thumbs.gfycat.com/SoupyOpenEider-max-1mb.gif");
-  background-blend-mode: lighten;
-
-    }
-  }
 
 .section {
   margin: auto;
-  width: 50%;
+  width: 60%;
   padding: 10px;
   font-family: 'orpheuspro';
   height: 70vh;
@@ -35,12 +26,14 @@
 
 .section h2 {
   line-height: auto;
-  font-size: 3.5em;
+  font-size: 3em;
+  color: rgb(255, 255, 255);
 }
 
 .section h3 {
   line-height: auto;
   font-size: 3em;
+  color: rgb(255, 255, 255);
 }
 
 .main {

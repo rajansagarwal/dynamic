@@ -10,12 +10,13 @@ export default function Home() {
       <h1><i>think. build. empower. </i></h1>
       </section>
       <section className="section">
-      <h2><i>Honesty and transparency make you vulnerable. Be honest and transparent anyways.
-- Mother Teresa</i></h2>
+      <h2><i>I'm Rajan—a 16 year old hacktivist & author based in Toronto. I build, write and redefine. <br/><br/>
+      I work with changemakers to grow organizations, ideas, projects and initiatives.<br/><br/>
+      My philosophy.</i></h2>
 
       </section>
       <section className="section">
-      <h3>I'm Rajan—a 16 year old hacktivist based in Toronto. I hack.
+      <h3>
 
 </h3>
 
