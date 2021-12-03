@@ -7,7 +7,7 @@ export default function Home() {
     <div className="App">
         
         <section className="main">
-      <h1><i>design, build, create.</i></h1>
+      <h1><i>title. text. here.</i></h1>
       </section>
       <section className="section">
       <h2><i>Honesty and transparency make you vulnerable. Be honest and transparent anyways.
