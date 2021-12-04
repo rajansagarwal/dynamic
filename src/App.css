@@ -7,17 +7,15 @@
 @font-face {font-family: "orpheusproitalics"; src: url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.eot"); src: url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.woff") format("woff"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.svg#Orpheus") format("svg"); }
 
 .App {
-  
+  background-color: blue;
   color: rgb(172, 182, 214);
-  background-color: rgba(255, 240, 220);
-  background-image: url("https://thumbs.gfycat.com/SoupyOpenEider-max-1mb.gif");
-  background-blend-mode: difference;
+  background-image: url("https://cloud-1g4r91ptx-hack-club-bot.vercel.app/0backgroundgif.gif");
   }
 
 
 .section {
   margin: auto;
-  width: 60%;
+  width: 70%;
   padding: 10px;
   font-family: 'orpheuspro';
   height: 70vh;
