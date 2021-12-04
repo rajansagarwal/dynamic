@@ -7,31 +7,99 @@
 @font-face {font-family: "orpheusproitalics"; src: url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.eot"); src: url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.woff") format("woff"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6afb442b0dac4242aa6c3e77985e119f.svg#Orpheus") format("svg"); }
 
 .App {
-  background-color: blue;
-  color: rgb(172, 182, 214);
-  background-image: url("https://cloud-1g4r91ptx-hack-club-bot.vercel.app/0backgroundgif.gif");
-  }
+  background-color: rgb(241, 240, 227);
+  color: rgb(84, 146, 167);
+  background-image: url("https://thumbs.gfycat.com/SoupyOpenEider-max-1mb.gif");
+  background-size: auto;
+  background-blend-mode: difference;
+}
+
+
+
 
 
 .section {
   margin: auto;
   width: 70%;
-  padding: 10px;
+  padding-bottom: 70px;
   font-family: 'orpheuspro';
   height: 70vh;
   
 }
 
-.section h2 {
-  line-height: auto;
-  font-size: 3em;
-  color: rgb(255, 255, 255);
+.contact {
+  margin: auto;
+  width: 70%;
+  padding-bottom: 20px;
+  font-family: 'orpheuspro';
+  height: 70vh;
+  
 }
 
-.section h3 {
+
+
+.one {
+  opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.two {
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+  animation-delay: 2s, initial;
+}
+
+.transition {
+  display:inline-block;
+  flex-direction: row;
+}
+
+#inline {
+  flex-direction: row;
+  display: inline;
+  flex-wrap: wrap;
+}
+
+.three {
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 2s;
+  animation-delay: 4s, initial;
+}
+
+.three {
+  display: inline !important;
+}
+
+.yuh {
+  display: inline;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+h2 {
   line-height: auto;
   font-size: 3em;
-  color: rgb(255, 255, 255);
+  color: white;
+}
+
+h3 {
+  line-height: auto;
+  font-size: 3em;
+  color: white;
 }
 
 .main {
@@ -49,11 +117,14 @@
   .main {
     padding: 22vh 0;
   }
-  .section h2 {
+  h2 {
     font-size: 2em;
   }
-  .section h3 {
+  h3 {
     font-size: 2em;
+  }
+  h2 {
+    color: black;
   }
 }
 
@@ -64,9 +135,16 @@
   .main h1 {
     font-size: 10vh;
   }
-  .section {
+  section {
     width: 80%;
     font-size: 1.3em;
   }
+  .App {
+    color: black;
+  }
+  h2 {
+    color: black;
+  }
 }
+
 
