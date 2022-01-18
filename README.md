@@ -1,1 +1,1 @@
-an experimental design for a portfolio
+an experimentally modern take on a website
